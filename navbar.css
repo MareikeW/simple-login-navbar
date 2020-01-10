@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Suez+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Knewave&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: blue;
+}
+
+p {
+  font-size: 40px;
+  margin-left: 100px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 3px 20px;
+  font-family: 'Knewave', cursive;
+}
+
+#navbar {
+  margin-right: 100px;
+}
+
+.login {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  font-family: 'Suez One', serif;
+}
+
+.login li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.password {
+  margin-left: 10px;
+}
